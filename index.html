@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoSchool</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-info">
+        <a href="index.html" class="navbar-brand">TechnoSchool</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Página Inicial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="cursos.html" class="dropdown-item">Todos</a>
+                        <a href="informatica.html" class="dropdown-item">Informática Básica</a>
+                        <a href="web.html" class="dropdown-item">Web Design e Developer</a>
+                        <a href="programacao.html" class="dropdown-item">Programação</a>
+                        <a href="dados.html" class="dropdown-item">Excel Avançado e Power BI</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="guara.html" class="dropdown-item">Guaratinguetá</a>
+                        <a href="pinda.html" class="dropdown-item">Pindamonhangaba</a>
+                        <a href="taubate.html" class="dropdown-item">Taubaté</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="quemsomos.html" class="nav-link">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <!-- Início do Carrossel -->
+        <div id="CarrosselIndex" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Botões dos itens do carrossel -->
+            <ol class="carousel-indicators">
+                <li data-target="#CarrosselIndex" data-slide-to="0" class="active"></li>
+                <li data-target="#CarrosselIndex" data-slide-to="1"></li>
+                <li data-target="#CarrosselIndex" data-slide-to="2"></li>
+            </ol>
+            <!-- Conteudo do Carrossel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carrossel/slide-01.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark" style="opacity: 0.8;">
+                        <h5>Curso de Informática</h5>
+                        <p>O que você precisa saber para entrar no mercado de trabalho.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carrossel/slide-02.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark" style="opacity: 0.8;">
+                        <h5>Curso de Web Design</h5>
+                        <p>Criação de Páginas Web seguindo as tendências do mercado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carrossel/slide-03.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark" style="opacity: 0.8;">
+                        <h5>Curso de Programação</h5>
+                        <p>Desenvolvimento de programas através de linguagens de programação.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Setinhas laterais -->
+            <a href="#CarrosselIndex" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a href="#CarrosselIndex" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <!-- Fim do carrossel -->
+        <div class="card-deck">
+            <div class="col-md card border-success bg-dark my-2 mx-1">
+                <h5 class="card-header text-success">Cursos</h5>
+                <img src="imagens/excelpower.jpg" alt="Excel e Power BI" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-success">Aprenda Excel e Power BI</h5>
+                    <p class="card-text text-light">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, obcaecati similique! Totam deserunt id nihil, pariatur recusandae officia veritatis beatae! At, ratione atque aperiam amet sunt odit. Praesentium, porro totam.
+                    </p>
+                    <a href="dados.html" class="btn btn-success">Saiba mais!</a>
+                </div>
+            </div>
+            <div class="col-md card border-info my-2 mx-1">
+                <h5 class="card-header text-info">Quem Somos</h5>
+                <img src="imagens/conheca.jpg" alt="TechnoSchool" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-info">Conheça a TechnoSchool</h5>
+                    <p class="card-text text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid, numquam odit, voluptatibus molestias fugit labore esse, consectetur nobis nesciunt hic unde. Distinctio aut velit ab odit repellendus cum corporis?
+                    </p>
+                    <a href="quemsomos.html" class="btn btn-info">Clique e Conheça!</a>
+                </div>
+            </div>
+            <div class="col-md card border-primary my-2 mx-1">
+                <h5 class="card-header text-primary">Notícias</h5>
+                <img src="imagens/novidade.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Novidades para você!</h5>
+                    <p class="card-text text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quaerat nulla eligendi atque deleniti non ab modi explicabo molestias aspernatur quis ex velit, dicta maiores saepe vel sint provident temporibus.
+                    </p>
+                    <a href="noticias.html" class="btn btn-primary">Veja mais...</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark" style="height: 120px;">
+        <hr>
+        <p class="float-left text-secondary">
+            &copy; 2022 &centerdot; Seu nome &centerdot;
+            <a href="mapa.html" class="text-info">Mapa do site</a>
+        </p>
+        <p class="float-right">
+            <a href="#" class="text-info">Voltar ao topo</a>
+        </p>
+    </footer>
+
+    <!-- Arquivos Javascript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

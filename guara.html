@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoSchool</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-info">
+        <a href="index.html" class="navbar-brand">TechnoSchool</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Página Inicial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="cursos.html" class="dropdown-item">Todos</a>
+                        <a href="informatica.html" class="dropdown-item">Informática Básica</a>
+                        <a href="web.html" class="dropdown-item">Web Design e Developer</a>
+                        <a href="programacao.html" class="dropdown-item">Programação</a>
+                        <a href="dados.html" class="dropdown-item">Excel Avançado e Power BI</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="guara.html" class="dropdown-item">Guaratinguetá</a>
+                        <a href="pinda.html" class="dropdown-item">Pindamonhangaba</a>
+                        <a href="taubate.html" class="dropdown-item">Taubaté</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="quemsomos.html" class="nav-link">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="row my-3">
+            <p class="h2 text-info">Sempre perto de você</p>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum reprehenderit quisquam odit aperiam laboriosam. Fugit cumque tempore, quo culpa deserunt fugiat error recusandae labore impedit nihil, ad assumenda nostrum exercitationem.
+            </p>
+        </div>
+        <hr class="border border-info">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imagens/conheca.jpg" alt="Fachada da Escola" class="w-100 rounded">
+            </div>
+            <div class="col-md-5">
+                <p class="h3 text-info">Unidade Guaratinguetá</p>
+                <p class="text-justify text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora doloribus eligendi quos nisi aliquam, facere aspernatur sapiente nobis provident fuga delectus a. Delectus dolorum ipsum, pariatur asperiores itaque earum maiores!</p>
+                <p class="text-justify text-secondary">Inventore, expedita, deserunt ea tempore ad enim accusantium numquam vitae non dolorum at voluptatibus aut reiciendis facere omnis. Numquam nulla dolorem esse eveniet sed itaque tempore neque cumque incidunt. Commodi.</p>
+                <p class="text-justify text-secondary">Similique illum nobis qui alias ullam, laboriosam architecto vero eius rerum iure illo, sapiente voluptatibus consequatur mollitia et officia. Et cupiditate labore ullam possimus nesciunt nobis debitis cumque natus harum!</p>
+            </div>
+            <div class="col-md-3 pt-3 border border-info rounded">
+                <h5 class="text-info">Informações</h5>
+                <hr class="border border-info">
+                <h6>Endereço:</h6>
+                <p class="text-secondary">Rua Comendador Rodrigues Alves, 192 - Centro</p>
+                <hr>
+                <h6>Funcionamento:</h6>
+                <p class="text-secondary">Segunda a sexta-feira: 08h00-22h00<br>Sábado: 08h00-15h00</p>
+                <hr>
+                <h6>Telefones:</h6>
+                <p class="text-secondary">(12) 3128-8049<br>(12) 98176-8049</p>
+                <hr>
+                <h6>Redes Sociais:</h6>
+                <p class="text-secondary">Facebook, Twitter, Instagram: <strong>technoguara</strong></p>
+                <hr>
+                <h6>Cursos Oferecidos:</h6>
+                <p class="text-secondary">Informática Básica, Web Design e Developer, Programação</p>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark" style="height: 120px;">
+        <hr>
+        <p class="float-left text-secondary">
+            &copy; 2022 &centerdot; Seu nome &centerdot;
+            <a href="mapa.html" class="text-info">Mapa do site</a>
+        </p>
+        <p class="float-right">
+            <a href="#" class="text-info">Voltar ao topo</a>
+        </p>
+    </footer>
+
+    <!-- Arquivos Javascript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
